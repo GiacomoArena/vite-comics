@@ -97,4 +97,4 @@ const InfoMenu = [
   },
 ]*/
 
-export {headerMenu,InfoMenu,titles};
+export {headerMenu,InfoMenu};

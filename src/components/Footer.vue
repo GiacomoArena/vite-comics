@@ -1,11 +1,10 @@
   <script>
-    import {titles} from '../data/db';
     
   export default {
     name: 'Footer',
     data(){
     return{
-      titles,
+      
     }
   }
   }
