@@ -38,7 +38,7 @@
   @use "../scss/partials/general" as *;
   @use "../scss/partials/mixin" as *;
   .container{
-    height: 150px;
+    height: 100px;
     color: $secondary-color;
     display: flex;
     justify-content: space-between;

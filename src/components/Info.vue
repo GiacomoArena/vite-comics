@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     background-color: $primary-color;
-    height: 150px;
+    height: 130px;
     .container{
     }
     ul{
