@@ -1,0 +1,9 @@
+@use './vars' as *;
+
+
+
+@mixin container{
+  width: 90%;
+  max-width: $container-width;
+  margin: 0 auto;
+}

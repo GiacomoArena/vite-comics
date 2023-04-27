@@ -6,7 +6,7 @@
 
 <template>
   
-  <H1>INFO CONTACT</H1>
+  <h1>INFO CONTACT</h1>
 </template>
 
 
