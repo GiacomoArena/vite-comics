@@ -58,7 +58,7 @@
       text-transform: uppercase;
     }
     a:hover{
-      
+      color: $secondary-color;
     }
     img{
       width: 50px;
