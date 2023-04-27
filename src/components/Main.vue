@@ -5,7 +5,7 @@
   </script>
 
 <template>
-  <h1>MAIN</h1>
+  <h1>/------MAIN-------/</h1>
 </template>
 
 
