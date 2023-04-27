@@ -24,8 +24,11 @@
         <li 
         v-for="(link, i) in headerMenu" 
         :key="i">
-        <a :href="link.href">{{ link.menu }}</a>
-        <!-- <span>_</span> -->
+        <a :href="link.href">
+          {{ link.menu }}
+          <span>_</span>
+        </a>
+        
       </li>
       </ul>
     </section>
@@ -43,31 +46,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    img{
+      width: 70px;
+    }
     ul{
       display: flex;
     }
-    li{
-      position: relative;
-    }
     a{
+      position: relative;
       padding: 15px;
-      font-weight: 600;
+      font-weight: 500;
       color: $secondary-color;
       text-transform: uppercase;
       
     }
-    /*span{
+    span{
       right: 35%;
-      top: 41px;
+      top: 13px;
+      height: 0;
       position: absolute;
       color: $primary-color;
-      font-size: 50px;
+      font-size: 60px;
       opacity: 0;
-      }*/
+      }
       a:hover{
         color: $primary-color;
       }
-      li:hover span{
+      a:hover span{
         opacity: 1;
       }
   }

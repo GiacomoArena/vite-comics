@@ -52,6 +52,7 @@
       align-items: center;
     }
     a{
+      width: 250px;
       display: flex;
       align-items: center;
       color:white;
@@ -61,7 +62,7 @@
       color: $secondary-color;
     }
     img{
-      width: 50px;
+      max-width: 45px;
       margin: 15px;
     }
   }

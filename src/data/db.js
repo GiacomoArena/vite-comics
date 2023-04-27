@@ -62,22 +62,22 @@ const InfoMenu = [
   },
   {
     href:'#',
-    menuString:'digital comix',
+    menuString:'dc merchandise',
     src: 'buy-comics-merchandise.png'
   },
   {
     href:'#',
-    menuString:'digital comix',
-    src: 'buy-comics-shop-locator.png'
-  },
-  {
-    href:'#',
-    menuString:'digital comix',
+    menuString:'subscription',
     src: 'buy-comics-subscriptions.png'
   },
   {
     href:'#',
-    menuString:'digital comix',
+    menuString:'comic shop locator',
+    src: 'buy-comics-shop-locator.png'
+  },
+  {
+    href:'#',
+    menuString:'DC power visa',
     src: 'buy-dc-power-visa.svg'
   },
 ]
