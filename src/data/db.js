@@ -82,4 +82,19 @@ const InfoMenu = [
   },
 ]
 
-export {headerMenu,InfoMenu};
+/*const titles = [
+  {
+    lists:['characters','comics','movies','TV','games','videos','news']
+  },
+  {
+    lists:['shop DC','shop DC collectibles']
+  },
+  {
+    lists:['terms of use','privacy policy(new)', 'ad choices','advertising','jobs','subscriptions','talent workshops', 'CPSC certificates','rating','shop Help','contact us']
+  },
+  {
+    lists:['dc','MAD magazine', 'dc kids','dc universe','dc power visa']
+  },
+]*/
+
+export {headerMenu,InfoMenu,titles};
