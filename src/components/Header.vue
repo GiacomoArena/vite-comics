@@ -25,7 +25,7 @@
         v-for="(link, i) in headerMenu" 
         :key="i">
         <a :href="link.href">{{ link.menu }}</a>
-        <span>_</span>
+        <!-- <span>_</span> -->
       </li>
       </ul>
     </section>
@@ -56,14 +56,14 @@
       text-transform: uppercase;
       
     }
-    span{
+    /*span{
       right: 35%;
       top: 41px;
       position: absolute;
       color: $primary-color;
       font-size: 50px;
       opacity: 0;
-      }
+      }*/
       a:hover{
         color: $primary-color;
       }

@@ -53,4 +53,33 @@ const headerMenu=[
   },
 ];
 
-export {headerMenu};
+
+const InfoMenu = [
+  {
+    href:'#',
+    menuString:'digital comix',
+    src: 'buy-comics-digital-comics.png'
+  },
+  {
+    href:'#',
+    menuString:'digital comix',
+    src: 'buy-comics-merchandise.png'
+  },
+  {
+    href:'#',
+    menuString:'digital comix',
+    src: 'buy-comics-shop-locator.png'
+  },
+  {
+    href:'#',
+    menuString:'digital comix',
+    src: 'buy-comics-subscriptions.png'
+  },
+  {
+    href:'#',
+    menuString:'digital comix',
+    src: 'buy-dc-power-visa.svg'
+  },
+]
+
+export {headerMenu,InfoMenu};
