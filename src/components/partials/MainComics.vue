@@ -14,22 +14,27 @@ export default {
 
 
 <template>
-  <div>
+  <div class="props-container">
+
     <img :src="itemThumb" alt="">
-    <h5>ciao</h5>
+    <h5>{{ itemSeries }}</h5>
   </div>
 </template>
 
 <style lang="scss" scoped>
  @use "../../scss/partials/vars" as *;
   
-  div{
+  .props-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: calc(100% /6);
     img{
-      width: 100px;
+      width: 150px;
+      margin-bottom: 15px;
+    }
+    h5{
+      color: white;
     }
   }
 
