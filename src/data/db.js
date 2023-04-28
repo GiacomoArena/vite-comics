@@ -82,7 +82,7 @@ const InfoMenu = [
   },
 ]
 
-/*const dcComics = [
+const dcComics = [
   {
     text:'characters'
   },
@@ -100,10 +100,11 @@ const InfoMenu = [
   },
   {
     text:'videos'
+  },  
   {
     text:'news'
   },
-],
+]
 
 const shop = [
   {
@@ -112,7 +113,7 @@ const shop = [
   {
     text:'shop DC collectibles'
   },
-],
+]
 
 const dc = [
   {
@@ -120,6 +121,7 @@ const dc = [
   },
   {
     text:'privacy policy(new)'
+  },
   {
     text:'ad choices'
   },
@@ -140,13 +142,15 @@ const dc = [
   },
   {
     text:'rating'
+  },
   {
     text:'shop Help'
   },
   {
     text:'contact us'
   },
-],
+]
+
 const sites = [
   {
     text:'dc'
@@ -163,6 +167,6 @@ const sites = [
   {
     text:'dc power visa'
   },
-]*/
+]
 
-export {headerMenu,InfoMenu};
+export {headerMenu,InfoMenu,dcComics,shop,dc,sites};

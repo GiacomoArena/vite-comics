@@ -60,10 +60,16 @@
       align-items: center;
     }
     img{
+      cursor: pointer;
       margin-left: 15px;
+      transition: all 1s;
+    }
+    img:hover{
+      width: 50px;
     }
     h4{
       color: $primary-color;
+      cursor: pointer;
     }
   }
   

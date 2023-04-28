@@ -1,10 +1,15 @@
   <script>
-    
+    import {dcComics,shop,dc,sites} from '../data/db';
+
+
   export default {
     name: 'Footer',
     data(){
     return{
-      
+      dcComics,
+      shop,
+      dc,
+      sites
     }
   }
   }
@@ -16,28 +21,9 @@
   <div class="container">
     <div class="lista">
       <ul>
-        <h4>dc comics</h4>
-        <li>
-          <a href="#">characters</a>
-        </li>
-        <li>
-          <a href="#">comics</a>
-        </li>
-        <li>
-          <a href="#">movies</a>
-        </li>
-        <li>
-          <a href="#">TV</a>
-        </li>
-        <li>
-          <a href="#">games</a>
-        </li>
-        <li>
-          <a href="#">videos</a>
-        </li>
-        <li>
-          <a href="#">news</a>
-        </li>
+        <li
+        
+        ><a href=""></a></li>
       </ul> 
       <!-- altra lista -->
       <ul>
