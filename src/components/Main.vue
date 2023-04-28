@@ -1,14 +1,17 @@
   <script>
   import dcComics from '../data/dc-comics.json'
-
+  import MainComics from '../components/partials/MainComics.vue'
 
 
   export default {
     name: 'Main',
-    
+    components:{
+      MainComics
+    },
     data(){
       return{
         dcComics,
+        
       }
     },
   }
@@ -18,7 +21,18 @@
 <template>
 
 <div class="main-container">
-  <h1>/------MAIN-------/</h1>
+  
+  <div class="container">
+    
+    <MainComics 
+  v-for="(item, i ) in dcComics"
+  :key="i"
+  :itemThumb="item.thumb"
+  :itemSeries="item.series"
+  />
+
+  </div>
+
 </div>
 
 </template>
@@ -29,10 +43,13 @@
   @use "../scss/partials/general" as *;
   @use "../scss/partials/mixin" as *;
 .main-container{
-  text-align: center;
   color: $primary-color;
   background-color: $secondary-color;
-  height: 100px; 
+  min-height: 100px;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 </style>

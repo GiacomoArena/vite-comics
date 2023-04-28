@@ -3,17 +3,34 @@
 export default {
   name:'MainComics',
   props:{
-    thumb:string,
-    series:string
+    itemThumb: String,
+    itemSeries: String
+  },
+  mounted(){
+    console.log(this.itemThumb);
   }
 }
 </script>
 
 
 <template>
-  <h1>ciao</h1>
+  <div>
+    <img :src="itemThumb" alt="">
+    <h5>ciao</h5>
+  </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+ @use "../../scss/partials/vars" as *;
+  
+  div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(100% /6);
+    img{
+      width: 100px;
+    }
+  }
 
 </style>
