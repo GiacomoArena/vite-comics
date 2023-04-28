@@ -15,9 +15,8 @@ export default {
 
 <template>
   <div class="props-container">
-
-    <img :src="itemThumb" alt="">
-    <h5>{{ itemSeries }}</h5>
+      <img :src="itemThumb" alt="">
+      <h5>{{ itemSeries }}</h5>
   </div>
 </template>
 
@@ -29,12 +28,24 @@ export default {
     flex-wrap: wrap;
     flex-direction: column;
     width: calc(100% /6);
+    
     img{
       width: 150px;
+      height: 200px;
       margin-bottom: 15px;
+      cursor: pointer;
+      transition: all 1s;
+    }
+    img:hover{
+      width: 200px;
+      height: 250px;
+      transform: scale(1);
+
     }
     h5{
       color: white;
+      margin-bottom: 20px;
+      text-transform: uppercase;
     }
   }
 

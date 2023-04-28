@@ -46,7 +46,7 @@
   color: $primary-color;
   background-color: $secondary-color;
   min-height: 100px;
-  padding: 100px 0;
+  padding: 70px 0;
   .container{
     display: flex;
     flex-wrap: wrap;
