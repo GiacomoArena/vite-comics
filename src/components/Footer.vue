@@ -21,15 +21,21 @@
   <div class="container">
     <div class="lista">
       <ul>
+        <h4>dc comics</h4>
         <li
-        
-        ><a href=""></a></li>
+        v-for="(item, i) in dcComics"
+        :key="i"
+        ><a href="#">{{ item.text }}</a>
+        </li>
       </ul> 
       <!-- altra lista -->
       <ul>
         <h4>shop</h4>
-        <li><a href="#">shop DC</a></li>
-        <li><a href="#">shop DC collectibles</a></li>
+        <li
+        v-for="(item, i) in shop"
+        :key="i"
+        ><a href="#">{{ item.text }}</a>
+        </li>
       </ul> 
     </div>
     
@@ -39,28 +45,22 @@
     <div class="lista">
       <ul>
         <h4>dc</h4>
-        <li><a href="#">terms of use</a></li>
-        <li><a href="#">privacy policy(new)</a></li>
-        <li><a href="#">ad choices</a></li>
-        <li><a href="#">advertising</a></li>
-        <li><a href="#">jobs</a></li>
-        <li><a href="#">subscriptions</a></li>
-        <li><a href="#">talent workshops</a></li>
-        <li><a href="#">CPSC certificates</a></li>
-        <li><a href="#">rating</a></li>
-        <li><a href="#">shop Help</a></li>
-        <li><a href="#">contact us</a></li>
+        <li
+        v-for="(item, i) in dc"
+        :key="i"
+        ><a href="#">{{ item.text }}</a>
+        </li>
       </ul> 
     </div>
 
     <div class="lista">
       <ul>
         <h4>sites</h4>
-        <li><a href="#">DC</a></li>
-        <li><a href="#">MAD magazine</a></li>
-        <li><a href="#">dc kids</a></li>
-        <li><a href="#">dc universe</a></li>
-        <li><a href="#">dc power visa</a></li>
+        <li
+        v-for="(item, i) in sites"
+        :key="i"
+        ><a href="#">{{ item.text }}</a>
+        </li>
       </ul> 
     </div>
     
