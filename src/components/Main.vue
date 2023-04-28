@@ -21,7 +21,9 @@
 <template>
 
 <div class="main-container">
-  
+  <span>
+    <h4>current series</h4>
+  </span>
   <div class="container">
     
     <MainComics 
@@ -32,7 +34,9 @@
   />
 
   </div>
-
+  <span>
+    <h5>load more</h5>
+  </span>
 </div>
 
 </template>
@@ -43,6 +47,7 @@
   @use "../scss/partials/general" as *;
   @use "../scss/partials/mixin" as *;
 .main-container{
+  position: relative;
   color: $primary-color;
   background-color: $secondary-color;
   min-height: 100px;
@@ -50,6 +55,33 @@
   .container{
     display: flex;
     flex-wrap: wrap;
+  }
+  span{
+    cursor: pointer;
+  }
+  h4{
+    position: absolute;
+    top: -25px;
+    left: 160px;
+    padding: 15px 30px;
+    color: white;
+    background-color: $primary-color;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  h5{
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 15px 30px;
+    color: white;
+    background-color: $primary-color;
+    text-transform: uppercase;
+    transition: all 1s;
+  }
+  h5:hover{
+    padding: 15px 60px;
   }
 }
 
