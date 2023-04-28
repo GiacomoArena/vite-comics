@@ -8,6 +8,12 @@
     return{
       headerMenu,
     }
+  },
+  methods:{
+    isActiveBoolean(link, i){
+      
+      link.active = !link.active
+    }
   }
   }
   
@@ -24,7 +30,10 @@
         <li 
         v-for="(link, i) in headerMenu" 
         :key="i">
-        <a :href="link.href">
+        <a 
+        @click="isActiveBoolean(link, i)"
+        :class="{'active' : link.active}"
+        :href="link.href">
           {{ link.menu }}
           <span>_</span>
         </a>
@@ -75,5 +84,11 @@
       a:hover span{
         opacity: 1;
       }
+      a.active span,
+      a.active{
+        color: $primary-color;
+        opacity: 1;
+      }
+      
   }
 </style>

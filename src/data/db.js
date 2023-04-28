@@ -82,18 +82,86 @@ const InfoMenu = [
   },
 ]
 
-/*const titles = [
+/*const dcComics = [
   {
-    lists:['characters','comics','movies','TV','games','videos','news']
+    text:'characters'
   },
   {
-    lists:['shop DC','shop DC collectibles']
+    text:'comics'
   },
   {
-    lists:['terms of use','privacy policy(new)', 'ad choices','advertising','jobs','subscriptions','talent workshops', 'CPSC certificates','rating','shop Help','contact us']
+    text:'movies'
   },
   {
-    lists:['dc','MAD magazine', 'dc kids','dc universe','dc power visa']
+    text:'TV'
+  },
+  {
+    text:'games'
+  },
+  {
+    text:'videos'
+  {
+    text:'news'
+  },
+],
+
+const shop = [
+  {
+    text:'shop DC'
+  },
+  {
+    text:'shop DC collectibles'
+  },
+],
+
+const dc = [
+  {
+    text:'terms of use'
+  },
+  {
+    text:'privacy policy(new)'
+  {
+    text:'ad choices'
+  },
+  {
+    text:'advertising'
+  },
+  {
+    text:'jobs'
+  },
+  {
+    text:'subscriptions'
+  },
+  {
+    text:'talent workshops'
+  },
+  {
+    text: 'CPSC certificates'
+  },
+  {
+    text:'rating'
+  {
+    text:'shop Help'
+  },
+  {
+    text:'contact us'
+  },
+],
+const sites = [
+  {
+    text:'dc'
+  },
+  {
+    text:'MAD magazine'
+  },
+  {
+    text:'dc kids'
+  },
+  {
+    text:'dc universe'
+  },
+  {
+    text:'dc power visa'
   },
 ]*/
 

@@ -12,7 +12,7 @@
 
 <template>
 <section>
-
+<!-- ciclare gli li con i valori all intterno del db cosí che sia tutto stampato dinamicamente -->
   <div class="container">
     <div class="lista">
       <ul>

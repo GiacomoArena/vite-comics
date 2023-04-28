@@ -1,5 +1,5 @@
   <script>
-
+  import dcComics from '../data/dc-comics.json'
 
 
 
@@ -7,10 +7,12 @@
     name: 'Main',
     
     data(){
-    return{
-    }
+      return{
+        dcComics,
+      }
+    },
   }
-  }
+
   </script>
 
 <template>
@@ -30,7 +32,7 @@
   text-align: center;
   color: $primary-color;
   background-color: $secondary-color;
-  height: 100px;
+  height: 100px; 
 }
 
 </style>

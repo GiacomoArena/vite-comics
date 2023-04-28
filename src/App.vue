@@ -5,6 +5,7 @@
     import Info from './components/Info.vue';
     import Footer from './components/Footer.vue';
     import Contact from './components/Contact.vue';
+    import Jumbotron from './components/Jumbotron.vue';
 
   export default {
     name:'App',
@@ -13,7 +14,8 @@
       Header,
       Info,
       Footer,
-      Contact
+      Contact,
+      Jumbotron
     },
     data(){
       return{
@@ -29,6 +31,8 @@
 
   <Header />
 
+  <Jumbotron />
+  
   <Main />
 
   <Info />
